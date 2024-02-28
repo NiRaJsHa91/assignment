@@ -1,0 +1,26 @@
+.mobileFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #ec3237;
+    color: white;
+    padding: 10px;
+}
+
+.caller_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caller_icon span{
+    font-size: clamp(12px, 2vw, 14px);
+    font-weight: 500;
+}
+  
+
+.mobileFooter a{
+    color: white;
+}

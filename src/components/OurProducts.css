@@ -1,0 +1,24 @@
+.ourProducts {
+  /* background-color: red; */
+  padding: 20px;
+  border-bottom: 2px solid red;
+  /* width: 100%; */;
+}
+.ourProducts > span {
+  display: block;
+  text-align: center;
+}
+
+.ourProducts > img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  /* background-color: red; */
+}
+
+@media (max-width: 768px) {
+  .ourProducts > img {
+  height: 200px;
+  width: 100%;
+}
+}

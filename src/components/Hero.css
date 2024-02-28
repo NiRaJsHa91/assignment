@@ -1,0 +1,72 @@
+.hero {
+  /* height: 80vh; */
+  width: 100%;
+  padding: 10px;
+  /* background-color: yellow; */
+}
+
+.hero_top {
+  display: flex;
+  height: 600px;
+  padding: 20px;
+}
+
+.awardImage_container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  flex: 0.4;
+  /* background-color: red; */
+}
+.awardImage_container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero_right_section {
+  flex: 0.6;
+}
+
+.heroImg_container {
+  height: 300px;
+  width: max-content;
+  /* background-color: green; */
+}
+
+.heroImg_container > img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  /* float: left; */
+}
+
+.hero > p:last-child {
+  text-align: center;
+  font-size: clamp(12px, 1.5vw, 14px);
+  padding: 20px;
+  margin-top: 50px;
+  font-weight: 550;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .heroImg_container {
+    height: 250px;
+  }
+
+  .heroImg_container > img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroImg_container {
+    height: 200px;
+  }
+
+  .heroImg_container > img {
+    height: 200px;
+  }
+}
